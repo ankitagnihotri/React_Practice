@@ -1,0 +1,58 @@
+.accountLinkingContainer {
+    max-width: 1280px;
+    margin: auto;
+    margin-top: 40px;
+}
+.tabContent {
+    padding: 15px 15px;
+}
+.tabs {
+    overflow: hidden;
+    background-color: #ffffff;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    width:calc(100% - 64px);
+}
+.tabs {
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+.tabs::-webkit-scrollbar {
+    display: none;
+}
+.CustomArrowLeft {
+    vertical-align: middle;
+    position: relative;
+    top: 12px;
+    float: left;
+}
+.CustomArrowRight {
+    vertical-align: middle;
+    position: relative;
+    bottom: 46px;
+    left: 97.3%;
+}
+.selectedTabStyle {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 18px;
+    background-color: #ffffff;
+    width: 205px;
+    display: inline-block;
+    border-bottom: 4px solid #dd9933;
+    border-bottom-width: 4px;
+}
+.unSelectedTabStyle {
+    border: none;
+    outline: none;
+    border-bottom: none;
+    cursor: pointer;
+    padding: 16px 16px;
+    font-size: 18px;
+    background-color: #ffffff;
+    width: 205px;
+    display: inline-block;
+    background-color: #ffffff;
+}
